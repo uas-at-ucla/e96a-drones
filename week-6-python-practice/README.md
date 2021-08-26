@@ -4,7 +4,9 @@ We've put together this assignment to help you get more familiar with Python, it
 ## Getting started
 
 ### Didn't install Python or VS Code?
-We have the same practice assignment on [Replit: Week 6 Python Practice](https://replit.com/@jtfa22/Week-6-Python-Practice)! Once you click the link, hit the big green Play button to run the code (may take a couple seconds), which will show you the instructions to get set up.
+We have the same practice assignment on [Replit: Week 6 Python Practice](https://replit.com/@jtfa22/Week-6-Python-Practice)! Once you click the link, hit the big green Play triangle button to run the intro code (may take a couple seconds) that will show the instructions to get set up. 
+
+*Remainder of this readme does not apply if you are only using Replit.*
 
 ### Get Code from Github
 Aight, now it's just us cool coders here :P
