@@ -2,6 +2,9 @@
 ### Week 6 Python Practice
 ### Variables
 
+# Feel free to comment out your code for other Parts you’re not currently working on.
+# A quick way to comment out a lot of code is to select the lines and press Ctrl(Cmd) + /
+
 ###
 ### Part 0: Hello World
 ###
@@ -17,6 +20,7 @@
 
 # 1. using the input() function, have the user enter their name into a variable called m_name
 # 2. then, print out a greeting with the name, such as "Hello there, General Kenobi, you are a bold one!" (user input "General Kenobi")
+# hint: remember string concatenation
 
 # TODO: your code goes here
 
