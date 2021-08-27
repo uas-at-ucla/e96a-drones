@@ -16,11 +16,11 @@ You will want to download this entire repository (files of code). To do so, head
 Once downloaded, unzip the file and place it somewhere to your liking.
 
 ## Getting started on Coding
-Open up Visual Studios Code (or whichever IDE you have) and open the folder from VS Code. 
+Open up Visual Studios Code (or whichever IDE you installed) and open the downloaded folder from VS Code within. 
 
 *VS Code might give you a bunch of Python Extension suggestions and what not for you to download, which you are free to, but not required.*
 
-You will see all the 4 files in this assignment, split among the different topics we've covered. We'd suggest working through them in order.
+You should see all the 4 files in this assignment, for the different topics we've covered. We'd suggest working through them in order.
 
 ## Running the Code
-To run the code of a file, just simply hit that green Play triangle button in the top right.
+To run the code of a file, just simply hit that green Play triangle button in the top right corner.

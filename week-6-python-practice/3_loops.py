@@ -9,7 +9,7 @@
 ### Part 1: for a while
 ###
 
-# using range(), create a for loop that prints out the even numbers sequentially from 10 to 2
+# using range(), create a for loop that prints out the even numbers sequentially from 10 to 2 (inclusive)
 # tip: when using range that counts down, you need to specify the step
 
 # TODO: your code goes here
