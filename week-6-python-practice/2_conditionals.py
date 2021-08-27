@@ -23,7 +23,7 @@
 # have the user enter a positive weight (pounds) of their (imaginary) cat
 # create a variable to store the rating of the input using this chart https://i.redd.it/am6cna8huen11.png (the large bold numbers are pounds)
 # print out the result in this format:
-#   Your cat is a ___
+#   Your cat is rated _
 # tip: double check the order of your conditions and whether you use < or >, 
 #      or you may find that your result ends up being the same every time
 
@@ -36,7 +36,7 @@
 # create a function that has two inputs x, and y, called coordinatePosition
 # the function returns a a string 'N','S','E','W','NE','SE','NW','SW', or 'C' based on the position of x and y relative to the origin (0,0) on a Cartesian Plane
 # the function returns 'C' if both x and y as ints both equal 0
-#   a.k.a. if x and y both round to 0, it's close enough to be counted as 'C' 
+#   a.k.a. if x and y both are less than 1, it's close enough to be counted as 'C' 
 # the function returns 'N','S','E', or 'W' if the corresponding x or y as int equal 0
 #   for example, coordinatePosition(-0.19, 19) returns 'N' since int(-0.19) == 0 in the x direction
 # the function returns 'NE','SE','NW', or 'SW' otherwise based on the coordinates

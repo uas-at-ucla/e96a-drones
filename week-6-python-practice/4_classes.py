@@ -59,15 +59,18 @@
 
 # now let's play with it
 # have the user enter a name for their bot, and create a variable p_game that is a Grid object
-# create a variable p_move which stores the input from the user entiner the move, or 'q' to quit
+# create a variable p_move which stores the input from the user that prompts the valid moves, or 'q' to quit
 # in a while loop that runs while p_move is not 'q'
 #   move the bot
 #   cleanUp the grid
 #   display the grid
-#   have the user enter a new move store it into p_move
+#   have the user enter a new move and store it into p_move
 
 # TODO: your code goes here
 
 # congrats! you've just made a simple game!
-# do play around and mess around to try and catch some bugs
+# do play around and mess around to try and catch some bugs (mistakes/errors)
 
+###
+### End
+###
