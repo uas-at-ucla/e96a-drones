@@ -12,7 +12,7 @@ from mavsdk.tune import (SongElement, TuneDescription, TuneError)
 async def run():
 
     drone = System()
-    await drone.connect(system_address="serial:///dev/tty.usbserial-0001")
+    await drone.connect(system_address="serial:///dev/tty.usbserial-0001") # check in Terminal
 
     print("Waiting for drone to connect...")
     async for state in drone.core.connection_state():

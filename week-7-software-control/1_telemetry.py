@@ -36,7 +36,7 @@ url = "" # TODO: your code goes here
 #   get the distance sensor measurements using the MAVSDK distance_sensor() function
 #   hint: use the async for with a variable called dist
 #   tip: in the API reference, notice how the function returns the DistanceSensor object
-#       the value we want is current_distance_m, so the value we want is dist.current_distance_m
+#       the value we want is current_distance_m, so what we want is dist.current_distance_m
 #   print out the value in this format
 #       dist: #
 #   hint: string concatenation, and don't forget the str() conversion
