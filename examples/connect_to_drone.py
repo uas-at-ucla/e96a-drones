@@ -1,5 +1,5 @@
 ### E96A: Drones
-### Week 7 Software Control
+### Examples
 ### Connect to Drone
 
 import asyncio

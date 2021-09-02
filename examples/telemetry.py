@@ -1,5 +1,5 @@
 ### E96A: Drones
-### Week 7 Software Control
+### Examples
 ### Telemetry Example
 
 # source https://github.com/mavlink/MAVSDK-Python/blob/main/examples/telemetry.py
