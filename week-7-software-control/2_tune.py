@@ -87,7 +87,8 @@ async def run():
 
     drone = System()
     await drone.connect(system_address=url)
-
+    
+    print("Waiting for drone to connect...")
     async for state in drone.core.connection_state():
         if state.is_connected:
             print("Drone discovered!")
@@ -104,6 +105,7 @@ async def run():
     # let's see our new monitor_vel_xyz in action
     # for this we'll need to use asyncio.ensure_future (uncomment out the line below)
 
+    # await drone.telemetry.set_rate_odometry(10)
     # asyncio.ensure_future(monitor_vel_xyz(drone))
 
     
@@ -115,8 +117,8 @@ loop = asyncio.get_event_loop()
 loop.run_until_complete(run())
 
 # uncomment the code below for monitor_vel_xyz
-asyncio.ensure_future(run())
-loop.run_forever()
+# asyncio.ensure_future(run())
+# loop.run_forever()
 
 ###
 ### End

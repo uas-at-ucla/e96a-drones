@@ -80,6 +80,7 @@ async def run():
 
     # let's add some code to let us know if the drone has connected
     # using async for, we check the connection of the drone in the Core plugin
+    print("Waiting for drone to connect...")
     async for state in drone.core.connection_state():
         if state.is_connected:
             print("Drone discovered!")
@@ -115,7 +116,7 @@ asyncio.get_event_loop().run_forever()
     # also, if you've looked at telemetry.py, you noticed there there is this 
     # if __name__ == "__main__": conditional
     # that is used for code that should only run if it is the main program, so it does not run if it is imported somewhere else
-    # you probably won't need to use that, since you can easily copy and paste the functions you want to use from here (instead of importing this file)
+    # you can use that, but is probably not necessary, since you can easily copy and paste the functions you want to use from here (instead of importing this file)
 
 ###
 ### End
