@@ -32,7 +32,8 @@ url = "" # TODO: your code goes here
 move = 1.0
 
 # let's define another variable heading for which direction the drone flies forward
-#  set heading equal to 0 degrees (this is Yaw, where 0 is North, and turns clockwise)
+# set heading equal to 0 degrees (this is Yaw, where 0 is North, and turns clockwise)
+# think of this as polar coordinates (move is radius, heading is angle)
 heading = 0.0
 
 # lastly, define an altitude for the drone to fly at
@@ -92,7 +93,8 @@ async def run():
 
     # now let's make the drone move that distance
     # create another PositionNedYaw object called pos1
-    # hint: it's trigonometry time- you'll need ot use math.cos() and math.sin() for North and East
+    # hint: it's trigonometry time- you'll need to use math.cos() and math.sin() for North and East
+    #   hint: cos() and sin() functions take radian values, so convert them using math.radians()
     # hint: the other two values are the same, Down = -alt, and Yaw = heading
     # TODO: your code goes here
 
