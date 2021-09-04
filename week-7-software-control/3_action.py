@@ -9,7 +9,7 @@
 # in this practice, we'll have your drone fly to specific GPS coordinates
 # hint: this will be useful in the autonomous delivery portion of the Final Competition!
 # since we won't get a large enough field to fly, you'll just have to trust that this process works :)
-#   a.k.a. you won't be able to test this 3_action.py specifically
+#   a.k.a. you won't be able to test this 3_action.py specifically :(
 
 ###
 ### Part 0: The setup
@@ -29,14 +29,14 @@ url = "" # TODO: your code goes here
 # first stop: the entrance of Royce Hall 
 #   L: 34.0724561, E: -118.4427272 (34°04'20.8"N 118°26'31.9"W)
 #   tip: store the decimal values as Long1 and East1
-Long1 = 34.0724561
-East1 = -118.4427272
+lat1 = 34.0724561
+lon1 = -118.4427272
 
 # second stop: the entrance to Bplate
 #   L: 34.071772, E: -118.449726
 #   notice how close the values are to the coordinates of Royce
-Long2 = 34.071772
-East2 = -118.449726
+lat2 = 34.071772
+lon2 = -118.449726
 
 # let's define the altitude the drone will fly
 fly_alt = 10.0 # meters
@@ -104,6 +104,7 @@ async def run():
     # let's land the drone here and disarm it
 
     # TODO: your code goes here
+
 
 # the main
 loop = asyncio.get_event_loop()

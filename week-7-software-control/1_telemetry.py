@@ -6,6 +6,8 @@
 
 # Feel free to take a look at telemetry.py from the example folder for some tips
 
+# in this practice, we practice getting telemetry data from a couple different sources
+
 ###
 ### Part 0: Importing the necessary packages
 ###

@@ -8,6 +8,8 @@
 
 # Feel free to take a look at tune.py from the example folder for some tips
 
+# in this practice, let's make the drone play a song, and then have it play a song when it moves fast
+
 ###
 ### Part 0: The setup
 ###
