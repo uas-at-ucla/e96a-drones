@@ -39,7 +39,7 @@ async def update_pid(drone):
     #   MC_ROLLRATE_K
     #   MC_ROLLRATE_I
     #   MC_ROLLRATE_D
-    # tip: these might look familiar, as they were listed on the QGC Tuning page as well
+    # tip: these might look familiar, as they were listed on the QGC Tuning panel as well
 
     # now let's set the parameters
     # since our values are floats, we will use the set_param_float() function instead
@@ -66,12 +66,14 @@ async def run():
     # update the PID by calling update_pid
     # hint: don't forget the await
     # TODO: your code goes here
-
-    ###
-    ### Part 3: Servo Control
-    ###
-
     
+# the main
+loop = asyncio.get_event_loop()
+loop.run_until_complete(run())
     
+###
+### End
+###
 
-
+# To see an implementation of using the Param class to control a servo,
+# see servo_control.py from the example folder
