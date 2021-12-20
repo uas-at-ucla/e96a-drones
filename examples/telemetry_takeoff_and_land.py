@@ -27,7 +27,7 @@ async def run():
 
     # Init the drone
     drone = System()
-    await drone.connect(system_address="udp://:14540")
+    await drone.connect(system_address="udp://:14445")
 
     print("Waiting for drone to connect...")
     async for state in drone.core.connection_state():
@@ -45,6 +45,8 @@ async def run():
     # Execute the maneuvers
     print("-- Arming")
     await drone.action.arm()
+
+    await asyncio.sleep(2)
 
     print("-- Taking off")
     await drone.action.takeoff()

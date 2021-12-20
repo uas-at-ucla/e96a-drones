@@ -1,5 +1,5 @@
 ### E96A: Drones
-### Week 7 Software Control
+### Software Control
 ### Param
 
 # MAVSDK-Python API, Param plugin http://mavsdk-python-docs.s3-website.eu-central-1.amazonaws.com/plugins/param.html

@@ -1,5 +1,5 @@
 ### E96A: Drones
-### Week 7 Software Control
+### Software Control
 ### Tune
 
 # MAVSDK-Python API, Tune plugin http://mavsdk-python-docs.s3-website.eu-central-1.amazonaws.com/plugins/tune.html

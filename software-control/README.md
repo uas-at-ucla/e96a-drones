@@ -2,7 +2,7 @@
 We've put together this assignment to help you get more familiar with MAVSDK and it's complicated structure of classes, functions, and use of `async`!
 
 ## Getting started
-You already have the code last week when you downloaded the repository last week. Open back up VS Code or your IDE and head to `week-7-software-controls` folder to find the practice code files.
+You already have the code last week when you downloaded the repository last week. Open back up VS Code or your IDE and head to `software-controls` folder to find the practice code files.
 
 You should see all the 5 files in this assignment, which goes through setting up and using each of the 5 different plugins to MAVSDK. We'd suggest working through them in order. But read through the rest of this guide before starting.
 
@@ -86,4 +86,4 @@ An example:
 await drone.connect(system_address="serial:///COM1") 
 ```
 ## Wifi
-The instruction below is also for QGC **not** open. Use with caution.
+For sake of safety and control, don't use with QGC **not** open.

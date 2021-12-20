@@ -1,5 +1,5 @@
 ### E96A: Drones
-### Week 6 Python Practice
+### Python Practice
 ### Variables
 
 # Feel free to comment out your code for other Parts you’re not currently working on.
